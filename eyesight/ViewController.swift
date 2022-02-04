@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let camera = LuminaViewController()
+        camera.isModalInPresentation = true
         camera.textPrompt = ""
         camera.setCancelButton(visible: false)
         camera.setShutterButton(visible: false)
@@ -31,9 +32,6 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: LuminaDelegate {
-    func dismissed(controller: LuminaViewController) {
-        controller.dismiss(animated: true, completion: nil)
-    }
     
     func streamed(videoFrame: UIImage, with predictions: [LuminaRecognitionResult]?, from controller: LuminaViewController) {
         guard let predicted = predictions else {
@@ -49,7 +47,7 @@ extension ViewController: LuminaDelegate {
             guard let bestPrediction = values.first else {
                 continue
             }
-            resultString.append("\(bestPrediction.name.capitalized)")
+            resultString.append(bestPrediction.name.capitalized)
         }
         controller.textPrompt = resultString
     }
