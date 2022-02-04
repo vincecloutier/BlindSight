@@ -304,7 +304,7 @@
 				DEVELOPMENT_TEAM = GR6SL6LH76;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = eyesight/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Eyesight;
+				INFOPLIST_KEY_CFBundleDisplayName = BlindSight;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Camera";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Requires Microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -335,7 +335,7 @@
 				DEVELOPMENT_TEAM = GR6SL6LH76;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = eyesight/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Eyesight;
+				INFOPLIST_KEY_CFBundleDisplayName = BlindSight;
 				INFOPLIST_KEY_NSCameraUsageDescription = "Requires Camera";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Requires Microphone";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
