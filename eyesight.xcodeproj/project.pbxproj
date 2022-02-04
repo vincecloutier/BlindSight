@@ -14,6 +14,7 @@
 		928CC24F27ACAAC1000AF768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928CC24E27ACAAC1000AF768 /* Assets.xcassets */; };
 		928CC25227ACAAC1000AF768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928CC25027ACAAC1000AF768 /* LaunchScreen.storyboard */; };
 		928CC25B27ACAAE0000AF768 /* Lumina in Frameworks */ = {isa = PBXBuildFile; productRef = 928CC25A27ACAAE0000AF768 /* Lumina */; };
+		928CC25F27ACAD21000AF768 /* MobileNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 928CC25E27ACAD21000AF768 /* MobileNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		928CC24E27ACAAC1000AF768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928CC25127ACAAC1000AF768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		928CC25327ACAAC1000AF768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928CC25E27ACAD21000AF768 /* MobileNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				928CC24B27ACAAC0000AF768 /* Main.storyboard */,
 				928CC24E27ACAAC1000AF768 /* Assets.xcassets */,
 				928CC25027ACAAC1000AF768 /* LaunchScreen.storyboard */,
+				928CC25E27ACAD21000AF768 /* MobileNet.mlmodel */,
 				928CC25327ACAAC1000AF768 /* Info.plist */,
 			);
 			path = eyesight;
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928CC24A27ACAAC0000AF768 /* ViewController.swift in Sources */,
+				928CC25F27ACAD21000AF768 /* MobileNet.mlmodel in Sources */,
 				928CC24627ACAAC0000AF768 /* AppDelegate.swift in Sources */,
 				928CC24827ACAAC0000AF768 /* SceneDelegate.swift in Sources */,
 			);
