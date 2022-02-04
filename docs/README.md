@@ -1,4 +1,4 @@
-# Eyesight
+# Project Description
 An app that allows for blind users to detect objects using machine learning.
 # Privacy Policy
 No data, personal or otherwise, is collected, transmitted, or stored by this application.
