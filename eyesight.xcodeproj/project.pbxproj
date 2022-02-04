@@ -13,6 +13,7 @@
 		928CC24D27ACAAC0000AF768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928CC24B27ACAAC0000AF768 /* Main.storyboard */; };
 		928CC24F27ACAAC1000AF768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928CC24E27ACAAC1000AF768 /* Assets.xcassets */; };
 		928CC25227ACAAC1000AF768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928CC25027ACAAC1000AF768 /* LaunchScreen.storyboard */; };
+		928CC25B27ACAAE0000AF768 /* Lumina in Frameworks */ = {isa = PBXBuildFile; productRef = 928CC25A27ACAAE0000AF768 /* Lumina */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928CC25B27ACAAE0000AF768 /* Lumina in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = eyesight;
+			packageProductDependencies = (
+				928CC25A27ACAAE0000AF768 /* Lumina */,
+			);
 			productName = eyesight;
 			productReference = 928CC24227ACAAC0000AF768 /* eyesight.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 928CC23927ACAAC0000AF768;
+			packageReferences = (
+				928CC25927ACAAE0000AF768 /* XCRemoteSwiftPackageReference "Lumina" */,
+			);
 			productRefGroup = 928CC24327ACAAC0000AF768 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -360,6 +368,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		928CC25927ACAAE0000AF768 /* XCRemoteSwiftPackageReference "Lumina" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dokun1/Lumina";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		928CC25A27ACAAE0000AF768 /* Lumina */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 928CC25927ACAAE0000AF768 /* XCRemoteSwiftPackageReference "Lumina" */;
+			productName = Lumina;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 928CC23A27ACAAC0000AF768 /* Project object */;
 }

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Lumina",
+        "repositoryURL": "https://github.com/dokun1/Lumina",
+        "state": {
+          "branch": "master",
+          "revision": "fd560866d53ab8be43e655c55cf4b2f9fcaddf4a",
+          "version": null
+        }
+      },
+      {
+        "package": "swift-log",
+        "repositoryURL": "https://github.com/apple/swift-log.git",
+        "state": {
+          "branch": null,
+          "revision": "5d66f7ba25daf4f94100e7022febf3c75e37a6c7",
+          "version": "1.4.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
